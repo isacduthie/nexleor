@@ -18,7 +18,7 @@ const differentiators = [
   },
   {
     icon: Lightbulb,
-    title: "Pragmatic Innovation",
+    title: "Applied AI Engineering",
     description:
       "We use AI-driven insights to navigate technical complexity, operational constraints, and regulatory realities.",
   },
