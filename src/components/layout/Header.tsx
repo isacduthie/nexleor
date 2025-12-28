@@ -2,6 +2,7 @@ import { Link, useLocation } from "react-router-dom";
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
+import nexleorLogo from "@/assets/nexleor-logo.png";
 
 const navItems = [
   { name: "About", href: "/about" },
@@ -19,13 +20,8 @@ export function Header() {
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border">
       <nav className="section-container flex items-center justify-between h-16 lg:h-20">
         {/* Logo */}
-        <Link to="/" className="flex items-center gap-2">
-          <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
-            <span className="text-primary-foreground font-bold text-lg">N</span>
-          </div>
-          <span className="text-xl font-semibold text-foreground tracking-tight">
-            NexLeor
-          </span>
+        <Link to="/" className="flex items-center">
+          <img src={nexleorLogo} alt="NexLeor" className="h-10 lg:h-12 w-auto" />
         </Link>
 
         {/* Desktop Navigation */}
