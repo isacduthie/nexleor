@@ -47,7 +47,7 @@ export function HeroSection() {
           <h1 className="heading-display text-primary-foreground mb-6">
             Engineering What's Next.
             <br />
-            <span className="text-accent">Delivering What Works.</span>
+            <span className="text-accent">Engineered for Results.</span>
           </h1>
 
           {/* Sub-headline */}
