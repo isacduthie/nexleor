@@ -148,7 +148,7 @@ function TestimonialSection() {
           </blockquote>
           <div className="text-muted-foreground">
             <p className="font-medium text-foreground">VP Engineering</p>
-            <p className="text-sm">Medical Device Company</p>
+            <p className="text-sm">Aerospace Company</p>
           </div>
         </div>
       </div>

@@ -1,7 +1,7 @@
 import { Layout } from "@/components/layout/Layout";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Plane, Heart, Microchip, Shield, CheckCircle2 } from "lucide-react";
+import { ArrowRight, Plane, Microchip, Shield, CheckCircle2 } from "lucide-react";
 
 const industries = [
   {
@@ -23,27 +23,6 @@ const industries = [
       "Experience with major OEMs and Tier-1 suppliers",
       "DO-178C/DO-254 development and certification support",
       "Program recovery for delayed aerospace programs",
-    ],
-  },
-  {
-    id: "healthcare",
-    icon: Heart,
-    title: "Healthcare & Medical Devices",
-    subtitle: "Regulated Innovation for Patient Safety",
-    description:
-      "Medical device development demands precision, traceability, and regulatory rigor. We help organizations navigate FDA, CE marking, and ISO requirements while delivering innovative products.",
-    capabilities: [
-      "Class II and Class III device development",
-      "Software as a Medical Device (SaMD)",
-      "Implantable and wearable devices",
-      "Diagnostic and monitoring systems",
-      "IEC 62304 software lifecycle compliance",
-      "Risk management per ISO 14971",
-    ],
-    highlights: [
-      "FDA 510(k) and PMA submission support",
-      "ISO 13485 QMS implementation",
-      "Design controls and DHF documentation",
     ],
   },
   {

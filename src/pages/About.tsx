@@ -32,7 +32,7 @@ const differentiators = [
 
 const principles = [
   "Deep understanding of complex, regulated industries",
-  "Decades of collective experience in aerospace, medical, and embedded systems",
+  "Decades of collective experience in aerospace and embedded systems",
   "Focus on outcomes, not just activities or deliverables",
   "Seamless integration with your engineering and program teams",
   "Global delivery capability with local expertise",
@@ -85,9 +85,8 @@ function StorySection() {
               </p>
               <p>
                 Today, we work with OEMs, Tier-1 suppliers, and deep-tech 
-                startups across aerospace, medical devices, and high-tech 
-                embedded systems. We're trusted to tackle their hardest 
-                engineering challenges.
+                startups across aerospace and high-tech embedded systems. 
+                We're trusted to tackle their hardest engineering challenges.
               </p>
             </div>
           </div>
