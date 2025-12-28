@@ -16,7 +16,6 @@ const footerLinks = {
   ],
   industries: [
     { name: "Aerospace & Defense", href: "/industries#aerospace" },
-    { name: "Healthcare & Medical", href: "/industries#healthcare" },
     { name: "Embedded & High-Tech", href: "/industries#embedded" },
   ],
 };

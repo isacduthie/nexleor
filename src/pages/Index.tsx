@@ -5,7 +5,7 @@ import {
   CTASection,
 } from "@/components/home/HomeComponents";
 import { Link } from "react-router-dom";
-import { ArrowRight, Plane, Heart, Microchip } from "lucide-react";
+import { ArrowRight, Plane, Microchip } from "lucide-react";
 
 const industries = [
   {
@@ -13,12 +13,6 @@ const industries = [
     name: "Aerospace & Defense",
     description: "Safety-critical systems, DO-178C, AS9100 compliance",
     href: "/industries#aerospace",
-  },
-  {
-    icon: Heart,
-    name: "Healthcare & Medical",
-    description: "FDA/CE regulated devices, ISO 13485, IEC 62304",
-    href: "/industries#healthcare",
   },
   {
     icon: Microchip,
