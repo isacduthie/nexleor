@@ -20,7 +20,7 @@ const differentiators = [
     icon: Lightbulb,
     title: "Pragmatic Innovation",
     description:
-      "We balance cutting-edge technology with practical constraints and regulatory realities.",
+      "We use AI-driven insights to navigate technical complexity, operational constraints, and regulatory realities.",
   },
   {
     icon: Wrench,
