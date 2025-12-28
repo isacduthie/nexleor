@@ -10,7 +10,7 @@ const industries = [
     title: "Aerospace & Defense",
     subtitle: "Safety-Critical Systems for the Skies",
     description:
-      "We understand what it takes to design, certify, and manufacture systems that must work—every time. Our team has deep experience with DO-178C, DO-254, and AS9100 requirements.",
+      "We understand what it takes to design, certify, and manufacture systems that must work—every time.",
     capabilities: [
       "Flight systems and avionics",
       "Unmanned aerial systems (UAS/UAV)",
