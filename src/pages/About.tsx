@@ -84,7 +84,7 @@ function StorySection() {
                 meaningfully—not just analyze from the sidelines.
               </p>
               <p>
-                Today, we work with OEMs, Tier-1 suppliers, and deep-tech 
+                We work with OEMs, Tier-1 suppliers, and deep-tech 
                 startups across aerospace and high-tech embedded systems. 
                 We're trusted to tackle their hardest engineering challenges.
               </p>
