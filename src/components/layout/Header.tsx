@@ -2,7 +2,7 @@ import { Link, useLocation } from "react-router-dom";
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
-import nexleorLogo from "@/assets/nexleor-logo.png";
+import nexleorLogo from "@/assets/nexleor-logo-transparent.png";
 
 const navItems = [
   { name: "About", href: "/about" },
