@@ -13,7 +13,7 @@ const footerLinks = {
     { name: "Product & Systems Engineering", href: "/services#product-systems" },
     { name: "Embedded & Software", href: "/services#embedded-software" },
     { name: "Program Consulting", href: "/services#program-consulting" },
-    { name: "Compliance & Safety", href: "/services#compliance-safety" },
+    { name: "Technology & Product Transition", href: "/services#industrialization" },
   ],
   industries: [
     { name: "Aerospace & Defense", href: "/industries#aerospace" },

@@ -40,7 +40,7 @@ const reasons = [
 
 const differentiators = [
   "Practitioners who have built what they advise on",
-  "No 'slideware-only' consulting—we do real work",
+  "We go beyond recommendations—working closely with your teams through delivery",
   "Deep domain expertise in regulated industries",
   "Seamless integration with your teams",
   "Knowledge transfer built into every engagement",
