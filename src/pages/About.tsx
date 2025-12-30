@@ -26,7 +26,7 @@ const differentiators = [
     icon: Wrench,
     title: "Hands-On Execution",
     description:
-      "We work alongside your teams—no 'slideware-only' consulting here.",
+      "We embed with your teams to solve real problems—turning intent into delivered results.",
   },
 ];
 
