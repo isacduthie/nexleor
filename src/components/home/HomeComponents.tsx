@@ -13,7 +13,7 @@ const valuePillars = [
     icon: Target,
     title: "End-to-End Product Realization",
     description:
-      "We guide products from concept through certification to manufacturing and beyond.",
+      "We work alongside of your team to successfully deliver products with our deep expertise in product development and managing technical risks.",
   },
   {
     icon: Shield,
@@ -46,8 +46,6 @@ export function HeroSection() {
           {/* Main Headline */}
           <h1 className="heading-display text-primary-foreground mb-6">
             Engineering What's Next.
-            <br />
-            <span className="text-accent">Engineered for Results.</span>
           </h1>
 
           {/* Sub-headline */}

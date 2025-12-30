@@ -7,7 +7,6 @@ import {
   Code,
   BarChart3,
   Factory,
-  ShieldCheck,
 } from "lucide-react";
 
 const serviceCategories = [
@@ -18,11 +17,12 @@ const serviceCategories = [
     description:
       "End-to-end systems engineering from architecture through integration and verification.",
     services: [
-      "System architecture and design",
-      "Requirements engineering and traceability",
-      "Multidisciplinary integration",
-      "Interface definition and management",
-      "V&V strategy and planning",
+      "System architecture & design",
+      "Multidisciplinary systems integration",
+      "Hardware–software integration",
+      "Mechatronics systems integration",
+      "Control systems & embedded platforms",
+      "Technology know-how to execution",
     ],
   },
   {
@@ -33,7 +33,7 @@ const serviceCategories = [
       "Real-time, safety-critical software and firmware development across platforms.",
     services: [
       "Embedded system product design",
-      "Embedded firmware development",
+      "Firmware development",
       "Real-time and control systems",
       "Safety-critical software",
       "SIL / HIL / Model-based development",
@@ -58,31 +58,18 @@ const serviceCategories = [
   {
     id: "industrialization",
     icon: Factory,
-    title: "Industrialization & Technology Transition",
+    title: "Technology & Product Transition",
     description:
       "Bridging R&D to production and enabling global engineering operations.",
     services: [
-      "R&D to manufacturing transition",
-      "Engineering transfer to India / global centers",
-      "Supplier technical readiness",
-      "Production support engineering",
-      "Process definition and tooling",
-      "Build documentation and work instructions",
-    ],
-  },
-  {
-    id: "compliance-safety",
-    icon: ShieldCheck,
-    title: "Compliance, Safety & Quality",
-    description:
-      "Regulatory alignment and certification readiness for safety-critical industries.",
-    services: [
-      "DO-178C / DO-254 compliance",
-      "FDA / CE regulatory alignment",
-      "ISO 13485 / IEC 62304 adherence",
-      "AS9100 / EN 9100 quality systems",
-      "Functional safety (ISO 26262, IEC 61508)",
-      "Verification and certification support",
+      "Technology readiness & gap closure",
+      "Design intent transfer",
+      "Core IP & knowledge handover",
+      "AI-assisted risk, dependency & execution insights",
+      "Hardware–software baseline stabilization",
+      "Interface alignment",
+      "Test & tooling setup",
+      "Execution-led transition",
     ],
   },
 ];
