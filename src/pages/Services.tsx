@@ -20,7 +20,6 @@ const serviceCategories = [
     services: [
       "System architecture and design",
       "Requirements engineering and traceability",
-      "Derived requirements and allocation",
       "Multidisciplinary integration",
       "Interface definition and management",
       "V&V strategy and planning",
@@ -33,12 +32,12 @@ const serviceCategories = [
     description:
       "Real-time, safety-critical software and firmware development across platforms.",
     services: [
+      "Embedded system product design",
       "Embedded firmware development",
       "Real-time and control systems",
-      "Safety-critical software (DO-178C, IEC 62304)",
+      "Safety-critical software",
       "SIL / HIL / Model-based development",
       "Software architecture and design",
-      "Code reviews and quality assurance",
     ],
   },
   {
