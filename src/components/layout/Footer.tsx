@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { Linkedin, Mail, MapPin } from "lucide-react";
-import nexleorLogo from "@/assets/nexleor-logo.png";
+import nexleorLogo from "@/assets/nexleor-logo-transparent.png";
 
 const footerLinks = {
   company: [
@@ -28,8 +28,8 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-8">
           {/* Brand Column */}
           <div className="lg:col-span-1">
-            <Link to="/" className="flex items-center mb-6">
-              <img src={nexleorLogo} alt="NexLeor" className="h-10 w-auto brightness-0 invert" />
+            <Link to="/" className="block mb-6">
+              <img src={nexleorLogo} alt="NexLeor" className="h-16 w-auto brightness-0 invert" />
             </Link>
             <p className="text-primary-foreground/70 text-sm leading-relaxed mb-6">
               Practitioner-led engineering consulting for complex, regulated, 
