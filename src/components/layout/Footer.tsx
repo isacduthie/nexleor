@@ -80,12 +80,12 @@ export function Footer() {
             <ul className="space-y-3">
               {footerLinks.services.map((link) => (
                 <li key={link.name}>
-                  <Link
-                    to={link.href}
+                  <a
+                    href={link.href}
                     className="text-primary-foreground/60 hover:text-primary-foreground transition-colors text-sm"
                   >
                     {link.name}
-                  </Link>
+                  </a>
                 </li>
               ))}
             </ul>
@@ -99,12 +99,12 @@ export function Footer() {
             <ul className="space-y-3 mb-8">
               {footerLinks.industries.map((link) => (
                 <li key={link.name}>
-                  <Link
-                    to={link.href}
+                  <a
+                    href={link.href}
                     className="text-primary-foreground/60 hover:text-primary-foreground transition-colors text-sm"
                   >
                     {link.name}
-                  </Link>
+                  </a>
                 </li>
               ))}
             </ul>
