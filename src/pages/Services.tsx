@@ -58,18 +58,16 @@ const serviceCategories = [
   {
     id: "industrialization",
     icon: Factory,
-    title: "Technology & Product Transition",
+    title: "Technology and Product Transfer",
     description:
-      "Bridging R&D to production and enabling global engineering operations.",
+      "From Technology Mastery to Independent Execution. We enable seamless transition of new and legacy products across locations—going beyond build-to-print by transferring deep product understanding, design intent, and execution capability to sustain, operate, and evolve products without drag.",
     services: [
-      "Technology readiness & gap closure",
-      "Design intent transfer",
-      "Core IP & knowledge handover",
-      "AI-assisted risk, dependency & execution insights",
-      "Hardware–software baseline stabilization",
-      "Interface alignment",
-      "Test & tooling setup",
-      "Execution-led transition",
+      "Current-state assessment and future-state alignment for scalable execution",
+      "Technology mastery and design-intent transfer beyond documentation and drawings",
+      "Design-level and working-level execution enablement for sustained autonomy",
+      "AI-assisted risk, dependency, and transition governance",
+      "Baseline stabilization across hardware, software, test, and tools",
+      "Test assets, tooling, and infrastructure transfer",
     ],
   },
 ];

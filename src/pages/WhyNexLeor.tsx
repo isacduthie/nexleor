@@ -20,21 +20,21 @@ const reasons = [
   },
   {
     icon: Scale,
-    title: "Balanced Innovation and Compliance",
+    title: "Beyond Build-to-Print Thinking",
     description:
-      "We know how to push boundaries while respecting regulatory constraints. Innovation doesn't mean ignoring the rules—it means working smarter within them.",
+      "We bring deep design understanding and system-level insight—enabling teams to execute, adapt, and sustain products beyond documentation handover.",
   },
   {
     icon: Users,
-    title: "Trusted by CXOs and Engineers Alike",
+    title: "Where Strategy Meets Engineering Reality",
     description:
-      "We speak the language of the boardroom and the lab. We help executives understand technical reality and help engineers navigate business constraints.",
+      "We align executive intent with engineering truth—helping leaders make informed decisions and teams execute with clarity.",
   },
   {
     icon: Target,
     title: "Focus on Outcomes, Not Activity",
     description:
-      "We don't measure success by hours logged or slides delivered. We measure it by problems solved, products shipped, and capabilities built.",
+      "We measure success by problems solved, products shipped, and capabilities built.",
   },
 ];
 
