@@ -1,7 +1,34 @@
 import { Layout } from "@/components/layout/Layout";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { ArrowRight, CheckCircle2, Users, Target, Lightbulb, Wrench } from "lucide-react";
+import { ArrowRight, CheckCircle2, Users, Target, Lightbulb, Wrench, User } from "lucide-react";
+import isaacPhoto from "@/assets/isaac-raj.png";
+
+const teamMembers = [
+  {
+    name: "Isaac Raj",
+    title: "Principal Consultant | Engineering & Technology",
+    photo: isaacPhoto,
+    bio: [
+      "Isaac Duthie is a senior engineering leader with 25+ years of experience across embedded systems, aerospace and defense, and safety-critical products. He brings deep hands-on engineering capability combined with leadership in program execution, supplier management, and global delivery.",
+      "Formerly a Director of Engineering at Collins Aerospace, Isaac led multi-disciplinary teams spanning electronics, embedded software, systems, FPGA, test systems, and program management. His work includes avionics, control and power systems, sensors, communication platforms, and connected solutions—delivered from early technology development through NPI, certification, and sustained execution.",
+      "Isaac's expertise covers embedded and real-time platforms, electronic hardware and FPGA-based systems, control and power electronics, and test and validation environments. He has built and scaled engineering teams, managed complex supplier ecosystems, and driven execution across distributed locations in India, Europe, and the Americas.",
+      "At NexLeor, Isaac works closely with client leadership and engineering teams on complex product and system challenges—bringing engineering depth, execution discipline, and a strong focus on outcomes that work in the real world.",
+    ],
+  },
+  {
+    name: "Team Member",
+    title: "Senior Consultant",
+    photo: null,
+    bio: ["Bio coming soon."],
+  },
+  {
+    name: "Team Member",
+    title: "Senior Consultant",
+    photo: null,
+    bio: ["Bio coming soon."],
+  },
+];
 
 const differentiators = [
   {
@@ -147,6 +174,60 @@ function DifferentiatorsSection() {
   );
 }
 
+function TeamSection() {
+  return (
+    <section className="section-padding bg-background">
+      <div className="section-container">
+        <div className="text-center mb-16">
+          <h2 className="heading-section text-foreground mb-4">The Team</h2>
+          <p className="text-body max-w-2xl mx-auto">
+            Meet the practitioners who bring decades of hands-on engineering experience to every engagement.
+          </p>
+        </div>
+
+        <div className="space-y-16">
+          {teamMembers.map((member, index) => (
+            <div
+              key={index}
+              className="bg-card border border-border rounded-2xl p-8 lg:p-12"
+            >
+              <div className="grid lg:grid-cols-[280px_1fr] gap-8 lg:gap-12">
+                <div className="flex flex-col items-center lg:items-start">
+                  {member.photo ? (
+                    <img
+                      src={member.photo}
+                      alt={member.name}
+                      className="w-48 h-48 lg:w-64 lg:h-64 rounded-2xl object-cover object-top mb-4"
+                    />
+                  ) : (
+                    <div className="w-48 h-48 lg:w-64 lg:h-64 rounded-2xl bg-muted flex items-center justify-center mb-4">
+                      <User className="w-20 h-20 text-muted-foreground/50" />
+                    </div>
+                  )}
+                  <h3 className="heading-subsection text-foreground text-center lg:text-left">
+                    {member.name}
+                  </h3>
+                  <p className="text-accent text-sm font-medium text-center lg:text-left">
+                    {member.title}
+                  </p>
+                </div>
+
+                <div className="space-y-4">
+                  {member.bio.map((paragraph, pIndex) => (
+                    <p key={pIndex} className="text-muted-foreground leading-relaxed">
+                      {paragraph}
+                    </p>
+                  ))}
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
 function AboutCTA() {
   return (
     <section className="section-padding bg-primary">
@@ -175,6 +256,7 @@ const About = () => {
       <AboutHero />
       <StorySection />
       <DifferentiatorsSection />
+      <TeamSection />
       <AboutCTA />
     </Layout>
   );

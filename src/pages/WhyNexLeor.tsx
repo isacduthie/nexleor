@@ -8,7 +8,6 @@ import {
   Users,
   Target,
   CheckCircle2,
-  Quote,
 } from "lucide-react";
 
 const reasons = [
@@ -135,26 +134,6 @@ function DifferentiatorsSection() {
   );
 }
 
-function TestimonialSection() {
-  return (
-    <section className="section-padding bg-background">
-      <div className="section-container">
-        <div className="max-w-4xl mx-auto text-center">
-          <Quote className="w-12 h-12 text-accent/30 mx-auto mb-8" />
-          <blockquote className="text-2xl md:text-3xl font-medium text-foreground leading-relaxed mb-8">
-            "NexLeor brought the technical depth we needed and the program 
-            discipline to actually execute. They understood our regulatory 
-            constraints from day one."
-          </blockquote>
-          <div className="text-muted-foreground">
-            <p className="font-medium text-foreground">VP Engineering</p>
-            <p className="text-sm">Aerospace Company</p>
-          </div>
-        </div>
-      </div>
-    </section>
-  );
-}
 
 function WhyNexLeorCTA() {
   return (
@@ -184,7 +163,6 @@ const WhyNexLeor = () => {
       <WhyNexLeorHero />
       <ReasonsSection />
       <DifferentiatorsSection />
-      <TestimonialSection />
       <WhyNexLeorCTA />
     </Layout>
   );
