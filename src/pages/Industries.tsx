@@ -41,9 +41,7 @@ const industries = [
       "Integrated hardware–software platform engineering",
     ],
     highlights: [
-      "Cross-platform firmware development",
-      "Hardware-software co-design",
-      "Functional safety for industrial systems",
+      "Proven experience in regulated and high-reliability environments",
     ],
   },
 ];

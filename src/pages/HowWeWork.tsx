@@ -50,7 +50,7 @@ const engagementModels = [
     description:
       "Part-time engineering leadership for organizations that need senior technical guidance without full-time overhead. Ideal for startups and growth-stage companies.",
     examples: [
-      "Fractional CTO / VP Engineering",
+      "Fractional Engineering Leadership",
       "Technical advisory board participation",
       "Architecture and strategy reviews",
     ],
@@ -63,7 +63,7 @@ const engagementModels = [
     examples: [
       "Program recovery and turnaround",
       "Technical due diligence",
-      "Certification gap assessments",
+      "Test systems upgrade and establishing golden testbeds",
     ],
   },
   {
