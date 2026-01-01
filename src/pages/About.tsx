@@ -10,23 +10,11 @@ const teamMembers = [
     title: "Principal Consultant | Engineering & Technology",
     photo: isaacPhoto,
     bio: [
-      "Isaac Duthie is a senior engineering leader with 25+ years of experience across embedded systems, aerospace and defense, and safety-critical products. He brings deep hands-on engineering capability combined with leadership in program execution, supplier management, and global delivery.",
+      "Isaac Raj is a senior engineering leader with 25+ years of experience across embedded systems, aerospace and defense, and safety-critical products. He brings deep hands-on engineering capability combined with leadership in program execution, supplier management, and global delivery.",
       "Formerly a Director of Engineering at Collins Aerospace, Isaac led multi-disciplinary teams spanning electronics, embedded software, systems, FPGA, test systems, and program management. His work includes avionics, control and power systems, sensors, communication platforms, and connected solutions—delivered from early technology development through NPI, certification, and sustained execution.",
       "Isaac's expertise covers embedded and real-time platforms, electronic hardware and FPGA-based systems, control and power electronics, and test and validation environments. He has built and scaled engineering teams, managed complex supplier ecosystems, and driven execution across distributed locations in India, Europe, and the Americas.",
       "At NexLeor, Isaac works closely with client leadership and engineering teams on complex product and system challenges—bringing engineering depth, execution discipline, and a strong focus on outcomes that work in the real world.",
     ],
-  },
-  {
-    name: "Team Member",
-    title: "Senior Consultant",
-    photo: null,
-    bio: ["Bio coming soon."],
-  },
-  {
-    name: "Team Member",
-    title: "Senior Consultant",
-    photo: null,
-    bio: ["Bio coming soon."],
   },
 ];
 
