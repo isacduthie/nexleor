@@ -11,13 +11,13 @@ const industries = [
   {
     icon: Plane,
     name: "Aerospace & Defense",
-    description: "Safety-critical systems, DO-178C, AS9100 compliance",
+    description: "Safety-Critical Systems for the Skies - We understand what it takes to design, certify, and manufacture systems that must work—every time.",
     href: "/industries#aerospace",
   },
   {
     icon: Microchip,
-    name: "Embedded & High-Tech",
-    description: "Real-time systems, IoT platforms, edge computing",
+    name: "Embedded & High-Tech Systems",
+    description: "We support complex embedded and high-tech systems through hands-on engineering, helping teams design, stabilize, integrate, and scale mission-critical products across hardware, software, and controls.",
     href: "/industries#embedded",
   },
 ];
