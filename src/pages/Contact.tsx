@@ -58,7 +58,7 @@ function ContactInfo() {
                 <div>
                   <p className="font-medium text-foreground mb-1">Locations</p>
                   <p className="text-muted-foreground">
-                    India | Global Delivery
+                    77 Town Center, Bengaluru 37, India
                   </p>
                 </div>
               </div>
