@@ -186,10 +186,12 @@ function ContactForm() {
                 Schedule a 30-minute discovery call to discuss your challenges 
                 and explore how we might help.
               </p>
-              <Button variant="hero" className="w-full">
-                Schedule a Call
-                <ArrowRight size={16} />
-              </Button>
+              <a href="mailto:hello@nexleor.com" className="block">
+                <Button variant="hero" className="w-full">
+                  Schedule a Call
+                  <ArrowRight size={16} />
+                </Button>
+              </a>
             </div>
           </div>
         </div>

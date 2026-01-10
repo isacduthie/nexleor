@@ -57,12 +57,12 @@ export function HeroSection() {
 
           {/* CTA Buttons */}
           <div className="flex flex-wrap gap-4">
-            <Link to="/contact">
+            <a href="mailto:hello@nexleor.com">
               <Button variant="hero" size="xl">
                 Schedule a Discovery Call
                 <ArrowRight size={18} />
               </Button>
-            </Link>
+            </a>
             <Link to="/services">
               <Button variant="hero-outline" size="xl">
                 Explore Services
@@ -125,12 +125,12 @@ export function CTASection() {
             Let's discuss how NexLeor can help you navigate complexity, 
             accelerate execution, and deliver results.
           </p>
-          <Link to="/contact">
+          <a href="mailto:hello@nexleor.com">
             <Button variant="cta" size="xl">
               Let's Talk
               <ArrowRight size={18} />
             </Button>
-          </Link>
+          </a>
         </div>
       </div>
     </section>

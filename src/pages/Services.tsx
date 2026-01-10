@@ -120,12 +120,12 @@ function ServiceCategory({
               {category.title}
             </h2>
             <p className="text-body mb-8">{category.description}</p>
-            <Link to="/contact">
+            <a href="mailto:hello@nexleor.com">
               <Button variant="cta">
                 Discuss Your Needs
                 <ArrowRight size={16} />
               </Button>
-            </Link>
+            </a>
           </div>
 
           <div className={isEven ? "lg:order-2" : "lg:order-1"}>
@@ -163,12 +163,12 @@ function ServicesCTA() {
           Tell us about your challenge. We'll help you identify the right 
           approach and scope.
         </p>
-        <Link to="/contact">
+        <a href="mailto:hello@nexleor.com">
           <Button variant="hero" size="xl">
             Schedule a Discovery Call
             <ArrowRight size={18} />
           </Button>
-        </Link>
+        </a>
       </div>
     </section>
   );

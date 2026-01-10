@@ -227,12 +227,12 @@ function AboutCTA() {
           Whether you're facing a complex technical challenge or need to 
           accelerate your program, we're ready to help.
         </p>
-        <Link to="/contact">
+        <a href="mailto:hello@nexleor.com">
           <Button variant="hero" size="xl">
             Schedule a Discovery Call
             <ArrowRight size={18} />
           </Button>
-        </Link>
+        </a>
       </div>
     </section>
   );
