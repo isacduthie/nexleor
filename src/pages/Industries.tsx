@@ -110,12 +110,12 @@ function IndustrySection({
             </div>
 
             <div className="mt-8">
-              <Link to="/contact">
+              <a href="mailto:hello@nexleor.com">
                 <Button variant="cta">
                   Discuss Your Project
                   <ArrowRight size={16} />
                 </Button>
-              </Link>
+              </a>
             </div>
           </div>
 
@@ -156,12 +156,12 @@ function IndustriesCTA() {
           Our engineering fundamentals translate across domains. If you're 
           building something complex and regulated, we should talk.
         </p>
-        <Link to="/contact">
+        <a href="mailto:hello@nexleor.com">
           <Button variant="hero" size="xl">
             Let's Explore Together
             <ArrowRight size={18} />
           </Button>
-        </Link>
+        </a>
       </div>
     </section>
   );

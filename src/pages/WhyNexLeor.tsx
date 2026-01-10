@@ -146,12 +146,12 @@ function WhyNexLeorCTA() {
           The best way to understand if we're the right fit is to have a 
           conversation. No pitch, no pressure—just honest dialogue.
         </p>
-        <Link to="/contact">
+        <a href="mailto:hello@nexleor.com">
           <Button variant="hero" size="xl">
             Schedule a Discovery Call
             <ArrowRight size={18} />
           </Button>
-        </Link>
+        </a>
       </div>
     </section>
   );

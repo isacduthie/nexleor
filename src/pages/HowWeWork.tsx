@@ -210,12 +210,12 @@ function HowWeWorkCTA() {
           The first step is a conversation. Tell us about your challenges, 
           and we'll explore how we might help.
         </p>
-        <Link to="/contact">
+        <a href="mailto:hello@nexleor.com">
           <Button variant="hero" size="xl">
             Schedule a Discovery Call
             <ArrowRight size={18} />
           </Button>
-        </Link>
+        </a>
       </div>
     </section>
   );
