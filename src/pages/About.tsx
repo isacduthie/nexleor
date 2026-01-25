@@ -67,12 +67,50 @@ function AboutHero() {
           <h1 className="heading-display text-foreground mb-6">
             Engineers First. Consultants Second.
           </h1>
-          <p className="text-xl text-muted-foreground leading-relaxed">
+          <p className="text-xl text-muted-foreground leading-relaxed mb-8">
             NexLeor was founded by practitioners who spent their careers 
             building complex systems—and saw firsthand the gap between 
             traditional consulting and what engineering organizations 
             actually need.
           </p>
+          
+          <div className="bg-card border border-border rounded-xl p-6 space-y-6">
+            <div>
+              <h3 className="text-lg font-semibold text-foreground mb-2">Nexleor Group</h3>
+              <p className="text-muted-foreground">
+                Nexleor Group combines high-tech consulting, digital innovation, and purpose-driven 
+                creation to deliver engineered value that drives impact across technology and 
+                human-centered solutions.
+              </p>
+            </div>
+            
+            <div className="grid gap-4">
+              <div className="bg-muted/50 rounded-lg p-4">
+                <h4 className="font-semibold text-foreground mb-1">1. Nexleor Systems — Consulting Services</h4>
+                <p className="text-sm text-muted-foreground">
+                  We partner with technology innovators and product leaders to architect, develop, 
+                  and scale embedded engineering solutions that power tomorrow's devices and systems.
+                </p>
+              </div>
+              
+              <div className="bg-muted/50 rounded-lg p-4">
+                <h4 className="font-semibold text-foreground mb-1">2. Nexleor Digital — Productivity & Life-Enhancing Tools</h4>
+                <p className="text-sm text-muted-foreground">
+                  Focused on building intuitive software and applications that elevate productivity 
+                  and enrich everyday experiences, empowering individuals and teams to do more with less friction.
+                </p>
+              </div>
+              
+              <div className="bg-muted/50 rounded-lg p-4">
+                <h4 className="font-semibold text-foreground mb-1">3. Nexleor Creations — 3D Design & Print for Healthcare Mobility</h4>
+                <p className="text-sm text-muted-foreground">
+                  We design and produce high-value 3D solutions that enable better mobility support 
+                  in healthcare — blending form, function, and affordability to make a tangible 
+                  difference in people's lives.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
