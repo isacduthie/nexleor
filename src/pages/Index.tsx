@@ -5,7 +5,7 @@ import {
   CTASection,
 } from "@/components/home/HomeComponents";
 import { Link } from "react-router-dom";
-import { ArrowRight, Plane, Microchip } from "lucide-react";
+import { ArrowRight, Plane, Microchip, HeartPulse } from "lucide-react";
 
 const industries = [
   {
@@ -19,6 +19,12 @@ const industries = [
     name: "Embedded & High-Tech Systems",
     description: "We support complex embedded and high-tech systems through hands-on engineering, helping teams design, stabilize, integrate, and scale mission-critical products across hardware, software, and controls.",
     href: "/industries#embedded",
+  },
+  {
+    icon: HeartPulse,
+    name: "MedTech & Healthcare",
+    description: "A consulting partner focused on embedded systems that enable smarter, globally scalable medical devices.",
+    href: "/industries#medtech",
   },
 ];
 
@@ -79,13 +85,11 @@ function DifferentiatorSection() {
             <h2 className="heading-section text-foreground mb-6">
               Not Consultants. Engineering Partners.
             </h2>
-            <p className="text-body mb-6">
+            <p className="text-body mb-8">
               We're practitioners first. Our team has spent decades designing, 
               building, and certifying complex systems—not just advising on them.
-            </p>
-            <p className="text-body mb-8">
-              We don't deliver slide decks and walk away. We roll up our sleeves, 
-              work alongside your teams, and stay until the job is done.
+              We roll up our sleeves, work alongside your teams, and stay until 
+              the job is done.
             </p>
             <Link to="/about">
               <span className="text-accent font-medium flex items-center gap-2 hover:gap-3 transition-all">

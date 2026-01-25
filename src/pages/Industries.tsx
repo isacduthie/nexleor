@@ -1,7 +1,7 @@
 import { Layout } from "@/components/layout/Layout";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Plane, Microchip, Shield, CheckCircle2 } from "lucide-react";
+import { ArrowRight, Plane, Microchip, HeartPulse, Shield, CheckCircle2 } from "lucide-react";
 
 const industries = [
   {
@@ -42,6 +42,24 @@ const industries = [
     ],
     highlights: [
       "Proven experience in regulated and high-reliability environments",
+    ],
+  },
+  {
+    id: "medtech",
+    icon: HeartPulse,
+    title: "MedTech & Healthcare",
+    subtitle: "Embedded Systems for Smarter Medical Devices",
+    description:
+      "A consulting partner focused on embedded systems that enable smarter, globally scalable medical devices.",
+    capabilities: [
+      "Intelligent Embedded Platforms for Medical Devices",
+      "Device Intelligence at the Edge",
+      "Modernizing Core Device Platforms",
+      "Accelerating Global Product Localization",
+      "From Concept to Scalable Product Platforms",
+    ],
+    highlights: [
+      "Deep expertise in regulated healthcare environments",
     ],
   },
 ];
