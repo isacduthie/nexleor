@@ -63,7 +63,7 @@ const engagementModels = [
     examples: [
       "Program recovery and turnaround",
       "Technical due diligence",
-      "Test systems upgrade and establishing golden testbeds",
+      "Design and Establish Product Systems Lab",
     ],
   },
   {
