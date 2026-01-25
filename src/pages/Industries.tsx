@@ -58,9 +58,7 @@ const industries = [
       "Accelerating Global Product Localization",
       "From Concept to Scalable Product Platforms",
     ],
-    highlights: [
-      "Deep expertise in regulated healthcare environments",
-    ],
+    highlights: [],
   },
 ];
 
